@@ -17,20 +17,21 @@ body {
     display: flex;
     justify-content: flex-end;
     position: fixed;
-    background-color: darkkhaki;
+    background-color: #80170F;
     width: 100%;
 }
 .nav-list {
     list-style: none;
-    margin-right: 2rem;
     display: flex;
+    margin-right: 2rem;
+    
 }
 
 .nav-list a {
     display: block;
     padding: 2rem;
     text-decoration: none;
-    color: antiquewhite;
+    color: #FF756B;
 }
 #welcome-section {
     display: flex;
@@ -39,24 +40,39 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: darkblue;
+    background-color: #CC2418;
     }
 
 #project-list {
     display: flex;
     justify-content: space-evenly;
+    padding: 0;
+    background-color: #80170F;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+#image {
+padding-top: 40px;
+max-width: 350px;
+max-height: 100%;
 }
 
 figcaption {
     text-align: center;
+    color: #FF756B;
+}
+
+.navoption:hover{
+    background-color: #40000C;
 }
 
 h1 {
-    color: #fff
+    color: #FF756B;
 }
 
 #my-projects {
-    color: black;
+    color: FF756B;
 }
 
 #contact {
@@ -71,13 +87,21 @@ footer {
     justify-content: center;
     align-items: center;
     height: 60px;
-    background-color: darkcyan;
-    color: white;
+    background-color: #80170F;
+    color: #FF756B;
     }
 
     @media screen and (width: 600px) {
         body {
             color: red;
         }
+    }
+
+    /* 980px / 16px = 61.25em */
+    @media (max-width: 61.25em) {
+        html{
+            font-size: 60%;
+        }
+
     }
 
