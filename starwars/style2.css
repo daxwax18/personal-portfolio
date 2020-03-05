@@ -2,18 +2,24 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #dfdfdf;
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
-a > img {
-    height: 18rem;
-    margin: 4px;
+li {
+    list-style-type: none;
 }
 
-button {
-    font-size: 2rem;
-    background-color: #888888;
-    border-radius: 10px;
-    padding: 6px;
+.container {
+    display: flex;
+}
+
+.nav {
+    border: solid 2px black;
+    padding-right: 1rem;
+}
+
+.main {
+    
 }
