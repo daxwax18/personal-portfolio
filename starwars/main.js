@@ -2,7 +2,7 @@ import { films } from '../data/films.js'
 import { people } from '../data/people.js'
 import { starships } from '../data/starships.js'
 
-const greetingDiv = document.querySelector('.greeting')
+const gallery = document.querySelector('.gallery')
 const maleButton = document.querySelector('#maleButton')
 const femaleButton = document.querySelector('#femaleButton')
 const otherButton = document.querySelector('#otherButton')
@@ -19,19 +19,16 @@ const otherCharacters = people.filter(person => {
 
 maleButton.addEventListener("click", (event) => {
     populateDOM(people.filter(person => person.gender === "male"))
-
 })
 
 femaleButton.addEventListener("click", (event) => {
     populateDOM(people.filter(person => person.gender === "female"))
-
 })
 
 otherButton.addEventListener("click", (event) => {
     populateDOM(otherCharacters)
-
 })
-//"url": "https://swapi.co/api/people/10/"
+
 function getCharNumber(url) {
     let end = url.lastIndexOf('/')
     let start = end -2 
@@ -41,11 +38,16 @@ function getCharNumber(url) {
     return url.slice(start, end)
 }
 
-//getCharNumber("https://swapi.co/api/people/10/")
+function removeChildren(element) {
+    while (element.firstChild) {
+        element.removeChild(element.firstChild);
+      }
+}
 
 function populateDOM(characters) {
+    removeChildren(gallery)
     characters.forEach(person => {
-   //need to extract the number from the person.url property
+    //need to extract the number from the person.url property
     let charNum = getCharNumber(person.url)
     let anchorWrap = document.createElement('a')
     anchorWrap.href = '#'
@@ -65,7 +67,7 @@ function populateDOM(characters) {
         console.log(event)
     }) 
     anchorWrap.appendChild(imageItem)
-    greetingDiv.appendChild(anchorWrap)
+    gallery.appendChild(anchorWrap)
    
 })
 }
