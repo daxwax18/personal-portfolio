@@ -1,0 +1,18 @@
+button {
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: black;
+    font-size: 25px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+img{
+    height: 20rem;
+    padding: 5px 5px 0px 0px;
+}
