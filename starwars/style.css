@@ -15,3 +15,8 @@ img{
     height: 19.5rem;
     padding: 0px 5px 0px 0px;
 }
+
+h1 {
+    text-align: center;
+    align-items: center;
+}
