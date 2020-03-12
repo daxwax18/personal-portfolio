@@ -16,9 +16,7 @@ const otherCharacters = people.filter(person => {
     }
 })
 
-//console.log(otherCharacters.length)
-
-maleButton.addEventListener("click", event => {
+maleButton.addEventListener('click', event => {
     populateDOM(people.filter(person => person.gender === "male"))
 })
 
@@ -38,10 +36,10 @@ function populateDOM(characters) {
     let anchorWrap = document.createElement('a')
     anchorWrap.href = '#'
 
-    let imageItem = document.createElement("img")
+    let imageItem = document.createElement('img')
     imageItem.src = `https://starwars-visualguide.com/assets/img/characters/${charNum}.jpg`
     
-    imageItem.addEventListener('error', (event) => {
+    imageItem.addEventListener('error', event => {
         //console.log(`${event.type}: Loading image\n`)
         //console.log(event)
         imageItem.hidden = true
@@ -49,7 +47,7 @@ function populateDOM(characters) {
     })
 
     // add some ways to handle user clicks on the image
-    imageItem.addEventListener("click", event => {
+    imageItem.addEventListener('click', event => {
         console.log(event)
     }) 
     anchorWrap.appendChild(imageItem)

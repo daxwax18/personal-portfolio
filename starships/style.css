@@ -25,3 +25,7 @@ li {
     border: solid 2px black;
     padding-right: 1rem;
 }
+
+.box {
+    text-align: center;
+}
