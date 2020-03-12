@@ -47,7 +47,7 @@ function populateDOM(characters) {
     })
 
     // add some ways to handle user clicks on the image
-    imageItem.addEventListener('click', event => {
+    imageItem.addEventListener('click' , event => {
         console.log(event)
     }) 
     anchorWrap.appendChild(imageItem)
