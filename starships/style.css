@@ -2,10 +2,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
+
 header, footer {
     display: flex;
     justify-content: center;
     font-size: 2rem;
+    color: gray;
+    background-color: black;
 }
 
 a {
@@ -19,16 +25,39 @@ li {
 
 .container {
     display: flex;
+    background-color: black;
 }
 
 .nav {
-    border: solid 2px black;
+    border: outset 4px gray;
     padding-right: 1rem;
 }
 
 .box {
     text-align: center;
+    font: bold;
+    color: black;
+    background-color: gray;
 }
 
+img {
+    padding: 160px;
+    size: 100%;
+    border: outset gray;
+    border-radius: 50%;
+}
 
+@media screen and (width: 600px) {
+    body {
+        color: black;
+    }
+}
+ 
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+    html{
+        font-size: 70%;
+        border: 50%;
+    }
 
+}
