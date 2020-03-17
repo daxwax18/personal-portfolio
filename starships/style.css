@@ -61,3 +61,16 @@ img {
     }
 
 }
+@keyframes example {
+    0%   {image-orientation:black; left:0px; top:0px;}
+    25%  {image-orientation:black; left:200px; top:0px;}
+    50%  {image-orientation:black; left:200px; top:200px;}
+    75%  {image-orientation:black; left:0px; top:200px;}
+    100% {image-orientation:black; left:0px; top:0px;}
+  }
+img {
+    position: relative;
+    background-color:  black;
+    animation-name: example;
+    animation-duration: 2s;
+  }
