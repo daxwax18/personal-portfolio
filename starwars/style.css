@@ -1,5 +1,6 @@
 body{
     background-color: gray;
+    flex-wrap: wrap;
 }
 
 button {
