@@ -39,6 +39,7 @@ const senatorNames = senators.map(senator => {
         name: `${senator.first_name}${middleName}${senator.last_name}`,
         imgURL: `https://www.govtrack.us/static/legislator-photos/${senator.govtrack_id}-200px.jpeg`
     }
+    
 })
 
 //https://www.govtrack.us/static/legislator-photos/300002-100px.jpeg

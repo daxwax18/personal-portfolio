@@ -16,10 +16,21 @@ button {
     border-radius: 10px;
     }
 
+button:hover {
+    color: darkred;
+}
+
 img{
     height: 19.5rem;
     padding: 0px 5px 0px 0px;
     border-radius: 20rem;
+}
+
+img:hover {
+    padding: 5px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
 }
 
 h1 {
