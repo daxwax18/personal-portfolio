@@ -1,4 +1,25 @@
 .senators {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 45px;
+}
+
+img {
+    border-radius: 10%;
+}
+
+figcaption {
+    font-family: fantasy;
+}
+
+
+img:hover {
+   padding: 5px;
+   background-color: darkgray;
 }

@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -52,19 +56,40 @@ body {
     flex-wrap: wrap;
 }
 
+
 #image {
-padding-top: 40px;
-width: 350px;
-height: 300px;
+    padding-top: 40px;
+    width: 350px;
+    height: 300px;
 }
+
+
 
 figcaption {
     text-align: center;
     color: #FF756B;
+    text-decoration: none;
 }
 
 .navoption:hover{
     background-color: #40000C;
+    border-radius: 10%;
+    padding: 25px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+figure:hover{
+    padding: 10px;
+    background-color: #40000C;
+    border-radius: 10%;
+    font-size: 35px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 80;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 
 h1 {
@@ -82,6 +107,17 @@ h1 {
     flex-wrap: wrap;
 }
 
+#profile-link:hover {
+    padding: 5px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+#profile-link {
+    color: #FF756B;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -90,6 +126,8 @@ footer {
     background-color: #80170F;
     color: #FF756B;
     }
+
+
 
     @media screen and (width: 600px) {
         body {

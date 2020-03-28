@@ -13,6 +13,7 @@ function populateSenatorDiv() {
         figImg.src = `https://www.govtrack.us/static/legislator-photos/${senator.govtrack_id}-200px.jpeg`
         figCaption.textContent = `${senator.first_name}${middleName}${senator.last_name}`
 
+
         senFigure.appendChild(figImg)
         senFigure.appendChild(figCaption)
         senatorDiv.appendChild(senFigure)

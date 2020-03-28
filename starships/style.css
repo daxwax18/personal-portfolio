@@ -19,8 +19,18 @@ a {
     font-size: 1.5rem;
 }
 
-li {
+h1, li {
     list-style-type: none;
+    color: darkred;
+}
+
+li:hover {
+    padding: 5px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    background-color: darkslategrey;
+    border-radius: 5%;
 }
 
 .container {
@@ -46,6 +56,12 @@ img {
     border: outset gray;
     border-radius: 50%;
 }
+img {
+    position: relative;
+    background-color:  black;
+    animation-name: example;
+    animation-duration: 2s;
+  }
 
 @media screen and (width: 600px) {
     body {
@@ -67,10 +83,4 @@ img {
     50%  {image-orientation:black; left:200px; top:200px;}
     75%  {image-orientation:black; left:0px; top:200px;}
     100% {image-orientation:black; left:0px; top:0px;}
-  }
-img {
-    position: relative;
-    background-color:  black;
-    animation-name: example;
-    animation-duration: 2s;
   }
