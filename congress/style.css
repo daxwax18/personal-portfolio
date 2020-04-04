@@ -22,7 +22,7 @@ figcaption {
 img:hover {
    padding: 5px;
    background-color: darkgray;
-   -webkit-transition: all .75s ease;
-   -moz-transition: all .75s ease;
-   -o-transition: all .75s ease;
+   -webkit-transition: all .5s ease;
+   -moz-transition: all .5s ease;
+   -o-transition: all .5s ease;
 }
