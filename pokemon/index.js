@@ -16,7 +16,7 @@ function populatePokeCards(pokeArray) {
     pokeScene.className = 'scene'
     letPokeCard = document.createElement('div')
     pokeCard.className = 'card'
-    pokeCard.addEventListener( 'click', () => card.pokeCard.toggle('is-flipped') 
+    pokeCard.addEventListener( 'click', () => card.pokeCard.toggle('is-flipped'))
     
         
     letPokeFront = document.createElement('div')
