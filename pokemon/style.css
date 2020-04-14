@@ -43,3 +43,7 @@
   background: blue;
   transform: rotateY(180deg);
 }
+
+img {
+  height: 50%;
+}
