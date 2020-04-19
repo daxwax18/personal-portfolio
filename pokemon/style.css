@@ -37,7 +37,7 @@ header {
   text-align: center;
   font-weight: bold;
   backface-visibility: hidden;
-  border-radius: 32px;
+  border-radius: 30px;
 }
 
 .card__face--front {
