@@ -41,7 +41,7 @@ header {
 }
 
 .card__face--front {
-  background: red;
+  background: gray;
 }
 .card__face--back {
   background: blue;
