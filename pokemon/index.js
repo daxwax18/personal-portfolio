@@ -94,23 +94,23 @@ async function getAPIData(url) {
   }
   
   function addPokemon() {
-    let Thoremon = new Pokemon(190, 290, 'thoremon',
+    let Daxwax = new Pokemon(190, 290, 'Daxwax',
       [
         {
           ability: {
-          name: 'Thunder Belly'
+          name: 'Scared to talk to women'
           }
         },
         {
           ability: {
-          name: 'Beard Power'
+          name: 'Likes coding'
           }
         },
         {
           ability: {
-          name: 'Rancid Stench'
+          name: 'Future web/app developer'
           }
         }
     ])
-    populatePokeCard(Thoremon)
+    populatePokeCard(Daxwax)
   }

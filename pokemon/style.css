@@ -4,6 +4,22 @@ header {
   align-items: center;
 }
 
+#newButton{
+  align-items: center;
+  justify-content: center;
+  color: purple;
+  padding: 20px;
+  border-radius: 25%;
+}
+
+#startButton{
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 25%;
+}
+
+
 .pokemonGrid {
   display: flex;
   flex-wrap: wrap;
@@ -54,4 +70,8 @@ li {
 
 img {
   height: 50%;
+}
+
+#showdown{
+  height: 200px;
 }
