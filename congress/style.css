@@ -7,22 +7,83 @@
 h1 {
     text-align: center;
     font-family: cursive;
-    font-size: 45px;
+    font-size: 55px;
+    padding: 0px;
 }
 
 img {
     border-radius: 10%;
+    padding: 10px 0px 0px 0px;
 }
 
 figcaption {
     font-family: fantasy;
+    color: whitesmoke;
 }
 
+#murica{
+    height: 125px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 10%;
+}
 
 img:hover {
    padding: 5px;
    background-color: darkgray;
-   -webkit-transition: all .75s ease;
-   -moz-transition: all .75s ease;
-   -o-transition: all .75s ease;
+   -webkit-transition: all .5s ease;
+   -moz-transition: all .5s ease;
+   -o-transition: all .5s ease;
+   opacity: 90%;
 }
+
+body {
+    background-color: #00132E;
+    background-image: url(star.png);
+    }
+
+header {
+    text-align: center;
+}
+
+.senatorGrid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 60px;
+}
+
+figure {
+    margin: .5rem;
+    align-items: center;
+}
+
+
+figcaption {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-democrat {
+    color: blue;
+}
+
+.fa-republican {
+    color: red;
+}
+
+.fa-star {
+    color: yellow;
+}
+
+.progressDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: .75rem;
+}
+
+.box {
+    background-image: url(https://www.onlygfx.com/wp-content/uploads/2017/03/grunge-star-5.png);
+    background-repeat: repeat;
+  }
