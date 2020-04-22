@@ -98,17 +98,17 @@ async function getAPIData(url) {
       [
         {
           ability: {
-          name: 'Scared to talk to women'
+          name: 'scared to talk to women'
           }
         },
         {
           ability: {
-          name: 'Likes coding'
+          name: 'likes coding'
           }
         },
         {
           ability: {
-          name: 'Future web/app developer'
+          name: 'future web/app developer'
           }
         }
     ])

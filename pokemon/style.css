@@ -4,19 +4,24 @@ header {
   align-items: center;
 }
 
-#newButton{
+body{
   align-items: center;
-  justify-content: center;
+  padding: 30px;
+}
+
+#newButton{
   color: purple;
   padding: 20px;
   border-radius: 25%;
+  margin: 1rem;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #startButton{
-  align-items: center;
-  justify-content: center;
   padding: 20px;
   border-radius: 25%;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
 
@@ -25,13 +30,16 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .scene {
   width: 200px;
   height: 260px;
-  border: 1px solid #CCC;
   margin: 10px;
   perspective: 600px;
   border-radius: 30px;
+  background-image: url(http://clipartmag.com/images/pokemon-clipart-black-and-white-28.jpg);
+  background-position: center;
+  background-size: 160%;
 }
 
 .card {
@@ -40,11 +48,12 @@ header {
   transition: transform 1s;
   transform-style: preserve-3d;
   cursor: pointer;
-  position: relative;
 }
+
 .card.is-flipped {
   transform: rotateY(180deg);
 }
+
 .card__face {
   position: absolute;
   width: 100%;
@@ -57,15 +66,21 @@ header {
 }
 
 .card__face--front {
-  background: gray;
+  color:red;
+  padding: 20px 0px 0px 0px;
 }
 .card__face--back {
-  background: blue;
+  background-image: url(http://static.planetminecraft.com/files/resource_media/screenshot/1335/2013-08-31_113423_6296943.jpg);
+  background-position: center;
   transform: rotateY(180deg);
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
 li {
   text-align: left;
+  padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
@@ -74,4 +89,9 @@ img {
 
 #showdown{
   height: 200px;
+  padding: 0px 25px 0px 0px;
+}
+
+.project-tile{
+  text-align: center;
 }
