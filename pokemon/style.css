@@ -7,10 +7,11 @@ header {
 body{
   align-items: center;
   padding: 30px;
+  background-image: url(http://cartoondistrict.com/wp-content/uploads/2014/12/pokemon-wallpaper-HD-for-desktop-2.jpg);
+  background-position: center;
 }
 
 #newButton{
-  color: purple;
   padding: 20px;
   border-radius: 25%;
   margin: 1rem;
@@ -94,4 +95,9 @@ img {
 
 .project-tile{
   text-align: center;
+}
+
+button:hover{
+  background-color: #F2B807;
+  opacity: 90%;
 }
