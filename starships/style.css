@@ -4,6 +4,9 @@
 
 body {
     background-color: black;
+    background-image: url(https://i.ytimg.com/vi/bynUc1ZJqtI/maxresdefault.jpg);
+    background-position: center;
+    background-size: 180%;
 }
 
 header, footer {
@@ -12,19 +15,31 @@ header, footer {
     font-size: 2rem;
     color: gray;
     background-color: black;
+    font: italic small-caps bold 18px/2 fantasy;
 }
+
 
 a {
     text-decoration: none;
     font-size: 1.5rem;
 }
 
-h1, li {
+h1{
     list-style-type: none;
     color: darkred;
     font-family: sans-serif;
     font-style: normal;
     font-weight: 600;
+    font: italic small-caps bold 40px/2 fantasy;
+}
+
+li {
+    list-style-type: none;
+    color: darkred;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font: italic small-caps bold 20px/2 fantasy;
 }
 
 li:hover {
@@ -39,6 +54,9 @@ li:hover {
 .container {
     display: flex;
     background-color: black;
+    background-image: url(https://i.ytimg.com/vi/bynUc1ZJqtI/maxresdefault.jpg);
+    background-position: center;
+    background-size: 180%;
 }
 
 .nav {
