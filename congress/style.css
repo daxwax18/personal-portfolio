@@ -62,15 +62,15 @@ figcaption {
 }
 
 .fa-democrat {
-    color: blue;
+    color: rgb(31, 31, 161);
 }
 
 .fa-republican {
-    color: red;
+    color: rgb(192, 22, 22);
 }
 
 .fa-star {
-    color: yellow;
+    color: rgb(209, 209, 30);
 }
 
 .progressDiv {
